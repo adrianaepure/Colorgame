@@ -42,7 +42,7 @@ for(var i = 0; i < squares.length; i++){
 				changeColors(clickedColor);
 				h1.style.background = clickedColor;
 			} else {
-				alert("wrong");
+				alert("Wrong color, pick again!");
 				this.style.background= "#232323";
 				messageDisplay.textContent = "Try again";
 			}
